@@ -1,0 +1,82 @@
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #243b64;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.student-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #ddd;
+}
+
+h2 {
+  color: #243b64;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #243b64;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #f2f5fa;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #a71d2a;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #243b64;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+
+  th,
+  td {
+    padding: 7px 4px;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+}
